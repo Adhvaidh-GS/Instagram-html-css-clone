@@ -1,0 +1,524 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: var(--bg);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+
+.header {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:65px;
+    border-bottom: 1px solid #dbdbdb;
+}
+/* 
+.header img {
+    margin: 15px;
+    margin-left: 10%;
+} */
+
+.logo img{
+    width: 130px;
+    padding-top: 10px;
+    margin-left: 70px;
+    object-fit: cover;
+}
+
+.profile-pic {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header-icons {
+    display: flex;
+} 
+
+.header-icons img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+
+.header-icons img:last-child {
+    padding: 0;
+}
+
+.main{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    margin-left: 300px;
+    margin-top: 80px;
+    display: flex;
+}
+
+
+.story-section {
+    background: var(--header-bg);
+    height: 100px;
+    border: 1px solid #dbdbdb;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.post-description {
+    margin-left: 10px;
+}
+
+.stories {
+    display: flex;
+    margin: 15px 5px;
+}
+
+/* .story-wrap {
+    border: 2px solid ;
+   border-radius: 60px;
+   height: 80px;
+   width: 80px;
+   margin-right: 20px;
+} */
+
+
+.story-wrap {
+    width:60px;
+    height: 60px;
+    background: linear-gradient(to bottom, #F67B37, #D92C7E);
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+
+.stories img{
+    width: 60px;
+    cursor: pointer;
+    margin-right: 20px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.posts-section {
+    margin-top: 20px;
+    
+}
+
+.post-header {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-name span {
+    margin-left: 15px;
+    color: rgb(142,142,142);
+}
+
+
+
+.post-profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-wrap {
+    width:50px;
+    height: 48px;
+    background: linear-gradient(to bottom, #F67B37, #D92C7E);
+    padding: 3px;
+    border-radius: 50%;
+}
+
+
+
+.post-profile {
+    margin: 10px 20px ;
+   display: flex;
+   align-items: center;
+}
+
+.post-profile h4 {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #262626;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.post-profile h4:hover {
+    text-decoration: underline;
+}
+
+
+.header-more-icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post-card {
+    border: 1px solid #dbdbdb;
+    margin-bottom: 25px;
+}
+
+.post-photo img{
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.post-icons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.left-post-icons i{
+    margin-left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.right-post-icons i {
+    margin-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.post-likes {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgb(38,38,38);
+
+}
+
+
+
+.total-comments {
+    margin-top: 5px;
+    color: rgb(142,142,142);
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.comment-1, .comment-2 {
+    margin-left: 10px;
+    color: rgb(38,38,38);
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-1, .comment-2 h5 {
+    cursor: pointer;
+   
+}
+
+.left-comment span {
+    color: rgb(38,38,38);
+    font-weight: 500;
+}
+
+.comment-2 .left-comment span a {
+    color: rgb(0,55,107);
+    text-decoration: none;
+}
+
+.right-comment-icon i{
+    margin-right: 10px;
+}
+
+.date {
+    color: rgb(142,142,142);
+    font-size: 10px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.line-break {
+    border: .5px solid rgb(239,239,239);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.add-comment-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input input {
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(142,142,142);
+}
+
+input:focus{
+    outline: none;
+}
+
+.input i {
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+.add-comment-post  span{
+    justify-content: flex-end;
+    color: #0000ff;
+    opacity: .3;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+video {
+    width: 600px;
+    object-fit: fill;
+    height: 700px;
+}
+
+.suggestion-section {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+
+
+.profile-switch, .profile-switch-name {
+    display: flex;
+    width: 110px;
+}
+.username {
+
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.username h2 {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.username p {
+    color: rgb(142,142,142);
+    cursor: pointer;
+}
+
+.profile-switch-img{
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.profile-switch-right {
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 12px;
+    color: rgb(15,155,246);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.suggestion-profiles {
+    display: flex;
+    margin-top: 20px;
+}
+
+.suggestion-header {
+    display: flex;
+    cursor: default;
+    margin-top: 50px;
+}
+
+.suggestion-header h3{
+    color: rgb(142,142,142);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.suggestion-header p , .suggestion-profile-right span {
+    font-size: 12px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.suggestion-header p {
+    margin-left: 131px;
+    cursor: pointer;
+}
+
+
+.suggestion-profile-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.suggestion-profile-left {
+    display: flex;
+}
+
+.suggestion-profile-name {
+    margin-left: 10px;
+}
+
+.suggestion-profile-name h5 {
+    color: rgb(38,38,38);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.is-following {
+    width: 70px;
+    font-size: 12px;
+    color: rgb(142,142,142);
+    cursor: default;
+}
+
+.suggestion-profile-right {
+    margin-left: 140px;
+}
+
+.suggestion-profile-right span {
+    color: rgb(0,149,246);
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 40px;
+    color: rgb(199,199,199);
+    font-size: 11px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.copyright a{
+    color: rgb(199,199,199);
+    margin-right: 5px;
+}
+
+.copyright a:hover {
+    color: rgb(153, 152, 152);
+}
+
+
+@media only screen and (max-width:1200px) {
+    .suggestion-section {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .main {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .main {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .main {
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and (max-width:725px) {
+    .main {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width:685px) {
+    .main {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .main {
+        margin-left: 10px;
+    }
+    .font-icons {
+        display: none;
+    }
+
+    .logo img {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:620px) {
+
+    .header{
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+ 
+
+    .header{
+        width: 650px;
+    }
+}
+@media only screen and (max-width:590px) {
+    .main {
+        margin-left: 10px;
+    }
+    .header{
+        width: 610px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:400px) {
+    .main {
+        margin-left: 5px;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header{
+        width: 620px;
+    }
+}

@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="">
+            </div>
+            <div class="search-box">
+                <input type="search" name="" placeholder="Search" id="">
+            </div>
+            <div class="header-icons">
+                <div class="font-icons">
+                    <img src="https://img.icons8.com/material-rounded/24/000000/home.png"/>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/facebook-messenger--v1.png"/>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/compass.png"/>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/like.png"/>
+                </div>
+                <div class="profile-icon">    
+                    <img class="profile-pic"  src="http://static1.squarespace.com/static/5283d33fe4b065af7e0f0f97/528ac1abe4b000f9c70bd010/5461c80ee4b0efbe94330465/1482514728236/YvesBehar-20141010-051.JPG?format=1500w" alt=""> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-container">
+
+        
+        <div class="story-section">
+            <div class="stories">
+                <div class="story-wrap">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <div class="story-wrap">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <div class="story-wrap">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <div class="story-wrap">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwOUDW4rghe51i24itaxG6Jd3qPLcxJHa0w&usqp=CAU" alt="">
+                </div>
+                <div class="story-wrap">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="posts-section">
+            <div class="posts">
+                <!-- Post 1 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            <div class="profile-wrap">
+                                <img src="data:image/jpeg;base64,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" alt="">
+                            </div>
+                            <h4>elon_musk</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/1405411/pexels-photo-1405411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Post 2 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYnLpEhwmrc-jNTPjB0qVgYVAhgpgBcQhO27F-2yLA5FxYl4UOQzWR7HPMGDf5ce02cI&usqp=CAU" alt="">
+                            <div class="profile-name">
+                                <h4>_jeff_</h4>
+                                <span>Nature</span>
+                            </div>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/3135544/pexels-photo-3135544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>1k likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 234 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="data:image/jpeg;base64,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" alt="">
+                            <div class="profile-name">
+                                <h4>elon_musk</h4>
+                                <span>Original Audio</span>
+                            </div>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <video id="video1" controls poster="poster.jpg" onclick="playPause()">
+                            <source src="Navarasa Official Trailer Mani Ratnam, Jayendra Netflix India_720P HD.mp4" type="video/mp4"></video>
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>50k views</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 1,063 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 4 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://i.pinimg.com/736x/b3/ea/42/b3ea42485791af64c8ec9dfb8ddcb750--beards-actors.jpg" alt="">
+                            <h4>elon_musk</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/3746334/pexels-photo-3746334.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>780 likes</h4>
+                    </div>
+                    <div class="post-description">
+                        <p>Bought new🌳🌳🌳</p>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 129 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 5 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="data:image/jpeg;base64,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" alt="">
+                            <h4>elon_musk</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/2806489/pexels-photo-2806489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 6 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://i.pinimg.com/originals/78/33/5b/78335b1fd160fca4057d04019cdba411.jpg" alt="">
+                            <h4>_jonh_</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/4599920/pexels-photo-4599920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 7 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://t3.ftcdn.net/jpg/02/22/85/16/360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg" alt="">
+                            <h4>_mohan_lal_</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/9125954/pexels-photo-9125954.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- Post 8 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://images.squarespace-cdn.com/content/v1/5cfb0f8783523500013c5639/1613703095215-TEZ2DFQ71FLPA5KAL6D1/Headshots-photographer-vancouver-1.jpg?format=2500w" alt="">
+                            <h4>._jeff_.</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/9225984/pexels-photo-9225984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 9 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://www.worldphoto.org/sites/default/files/default-media/Nova.jpg" alt="">
+                            <h4>_.prithvi._</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/6243804/pexels-photo-6243804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 10 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://i.pinimg.com/originals/aa/10/c8/aa10c8770ef01e56b0b097106f2a4168.jpg" alt="">
+                            <h4>george_musk</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/821802/pexels-photo-821802.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 11 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmulObMrxAV9SZ7Nxt8605mLihptacB3Zm6WTHZ_dJ9i0Awvky3cqzGwM0mVvp56Iewtk&usqp=CAU" alt="">
+                            <h4>_therealprithvi_</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/6626710/pexels-photo-6626710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 12 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://cdn.pixabay.com/photo/2019/11/03/05/36/portrait-4597853_1280.jpg" alt="">
+                            <h4>_.sam._</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/4157715/pexels-photo-4157715.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 13 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDt_i_DRvujzoi0NYrgTdl1cIPBoproKFySw&usqp=CAU" alt="">
+                            <h4>..sebastin__</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/3797041/pexels-photo-3797041.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- Post 14 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPppGsODkJm0KAlBxrVV9zJ1VAWMN1CiQuFWLTyh4fbXxzE6GAnPS4M0GUOApKckNQdI&usqp=CAU" alt="">
+                            <h4>.musk_elon.</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/8667880/pexels-photo-8667880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 15 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKSnIFTtBSQK-Z8_cV-N6_PybmYLLn2otbKNGC6UXRAHlf-2Z_mRGc5pX11eWbhieJj0&usqp=CAU" alt="">
+                            <h4>_dhanush.rr_</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/6786910/pexels-photo-6786910.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 16 -->
+                <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL-hKULZF6H_6Hp8eTkSIGQY7IBetIKWYGVMzpbmcigZ9OiezIuD5Ez1aeeqQXh8qs1nU&usqp=CAU" alt="">
+                            <h4>_.lion._</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/4841219/pexels-photo-4841219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                            <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 17 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8HrqBpwVOhvx-bSXUrvnKapeU2ziFB8J6FKazfKet45pEDHocNlQv4glOhUXciV16pA&usqp=CAU" alt="">
+                            <h4>_l.l_</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/3481026/pexels-photo-3481026.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 18 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="http://cdn.shopify.com/s/files/1/0012/6704/0345/articles/Portriat_Photography_Composition_Tips_1024x1024.jpg?v=1563422345" alt="">
+                            <h4>__sony__</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/4954706/pexels-photo-4954706.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 19 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgAa1gFwrY1Anq7RqUjae3Y6W92GSb5tZ7Lr7KjdOj-m0wR_2MWS1hYrGOkJ6AGwpJQo&usqp=CAU" alt="">
+                            <h4>emir_khan</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/3241793/pexels-photo-3241793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Post 20 -->
+                 <div class="post-card">
+                    <div class="post-header">
+                        <div class="post-profile">
+                            
+                                <img src="data:image/jpeg;base64,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" alt="">
+                            <h4>elon_musk</h4>
+                        </div>
+                        <div class="header-more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="post-photo">
+                        <img src="https://images.pexels.com/photos/2806489/pexels-photo-2806489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                    <div class="post-icons">
+                        <div class="left-post-icons">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <div class="right-post-icons">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="post-likes">
+                        <h4>258 likes</h4>
+                    </div>
+                    <div class="post-comments">
+                        <div class="total-comments">
+                            View all 9 comments
+                        </div>
+                        <div class="comment-1">
+                            <div class="left-comment">
+                               <h5>Jeff_278 <span>Nice one mahn😍😍😍</span> </h5>
+                            </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="comment-2">
+                            <div class="left-comment">
+                                <h5>_.XAE12._ <span> <a href="">@elon_musk</a> Amazing shot</span> </h5>
+                             </div>
+                            <div class="right-comment-icon">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="date">
+                            JULY 15
+                        </div>
+                        <hr class="line-break">
+                        <div class="add-comment-section">
+                            <div class="input">
+                                <i class="far fa-smile"></i>
+                                <input type="text" placeholder="Add a comment...">
+                            </div>
+                            <div class="add-comment-post">
+                                <span>Post</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+        <div class="suggestion-section">
+            <div class="profile-switch">
+                <div class="profile-switch-left">
+                    <div class="profile-switch-name">
+                        <img class="profile-switch-img" src="http://static1.squarespace.com/static/5283d33fe4b065af7e0f0f97/528ac1abe4b000f9c70bd010/5461c80ee4b0efbe94330465/1482514728236/YvesBehar-20141010-051.JPG?format=1500w" alt="">
+                        <div class="username"><h2>_bill_</h2>
+                            <p> Gates</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-switch-right">
+                    <span>Switch</span>
+                </div>
+            </div>
+            <div class="suggestions">
+                <div class="suggestion-header">
+                    <h3>Suggestions for you</h3>
+                    <p>See All</p>
+                </div>
+                <div class="suggestion-profiles">
+                    <div class="suggestion-profile-left">
+                        <div class="suggestion-profile-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFb5fMw2UHXHnnNcW6t2Dpa7A_Ubc-9sTvEA&usqp=CAU" alt="">
+                        </div>
+                        <div class="suggestion-profile-name">
+                            <h5>luke</h5>
+                            <div class="is-following">
+                                <span>Follows you</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-profile-right">
+                        <span>Follow</span>
+                    </div>
+                </div>
+
+                <div class="suggestion-profiles">
+                    <div class="suggestion-profile-left">
+                        <div class="suggestion-profile-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJmYdWxLz5G17Yme1yqYU9Xz929UrN_jbjcUj-GSUbqdSq-WPeaGNEgiTKXF_-bsV01o&usqp=CAU" alt="">
+                        </div>
+                        <div class="suggestion-profile-name">
+                            <h5>luke</h5>
+                            <div class="is-following">
+                                <span>Follows you</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-profile-right">
+                        <span>Follow</span>
+                    </div>
+                </div>
+                
+                <div class="suggestion-profiles">
+                    <div class="suggestion-profile-left">
+                        <div class="suggestion-profile-image">
+                            <img src="https://static.showit.co/1200/lKXdm4sAQxKH84zzCF4v2g/55058/karissavantassel-10_karissa_van_tassel.jpg" alt="">
+                        </div>
+                        <div class="suggestion-profile-name">
+                            <h5>luke</h5>
+                            <div class="is-following">
+                                <span>Follows you</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-profile-right">
+                        <span>Follow</span>
+                    </div>
+                </div>
+
+
+                <div class="suggestion-profiles">
+                    <div class="suggestion-profile-left">
+                        <div class="suggestion-profile-image">
+                            <img src="https://photos.smugmug.com/Portfolios/FEMALE-STUDIO-FINE-ART-PORTRAITURE/i-X8d3Hd8/0/875fb25c/L/Femaleportraits348b-L.jpg" alt="">
+                        </div>
+                        <div class="suggestion-profile-name">
+                            <h5>luke</h5>
+                            <div class="is-following">
+                                <span>Follows you</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-profile-right">
+                        <span>Follow</span>
+                    </div>
+                </div>
+              
+
+            </div>
+
+            <div class="about">
+                <div class="about-us">
+                    <p>About <span>∙</span> Help <span>∙</span> Press <span>∙</span> API <span>∙</span> Jobs <span>∙</span> Privacy <span>∙</span> Terms <span>∙</span> Locations <span>∙</span> Top accounts <span>∙</span> Hashtags <span>∙</span> Language</p>
+                </div>
+                <div class="copyright">
+                    © <a href="">Adhvaidh G S</a> 2021
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
